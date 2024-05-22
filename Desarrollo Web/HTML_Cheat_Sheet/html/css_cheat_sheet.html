@@ -1,0 +1,212 @@
+<!--
+Javier Montero
+A01026213
+CSS_Cheat_Sheet.html
+--> 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>CSS Cheat Sheet</h1>
+
+    <!-- Propiedad 1: border -->
+    <section>
+        <h2>1. Border</h2>
+        <p>Permite colocar un borde al rededor de un elemento de la siguiente manera:</p>
+        <div class="border"> Cada border puede ser personalizado con diferentes colores de fondo/contorno y tamaños o estilos </div>
+    </section>
+
+    <!-- Propiedad 2: border-left, border-right, border-top, border-bottom -->
+    <section>
+        <h2>2. Border-Left, Border-Right, Border-Top, Border-Bottom</h2>
+        <p>Permite colocar un borde en los lados izquierdo, derecho, superior e inferior de un elemento así como modificar el estilo de cada uno de la siguiente manera:</p>
+        <div class="border-left">Borde izquierdo</div>
+        <div class="border-right">Borde derecho</div>
+        <div class="border-top">Borde superior</div>
+        <div class="border-bottom">Borde inferior</div>
+    </section>
+
+    <!-- Propiedad 3: border-radius -->
+    <section>
+        <h2>3. Border-Radius</h2>
+        <p>Se utiliza para redondear los bordes de un elemento, especificando un valor y cuales bordes:</p>
+        <div class="border-radius"> Este border tiene todos los borders redondeados con 10px </div>
+    </section>
+
+    <!-- Propiedad 4: background-image -->
+    <section>
+        <h2>4. Background-Image</h2>
+        <p>Permite colocar una imagen de fondo:</p>
+        <div class="background-image"> Este uron es una imagen de fondo, las medidas son modificables </div>
+    </section>
+
+    <!-- Propiedad 5: color -->
+    <section>
+        <h2>5. Color</h2>
+        <p>Permite cambiar el color del texto:</p>
+        <div class="color"> Este texto es blanco </div>
+    </section>
+
+    <!-- Propiedad 6: font -->
+    <section>
+        <h2>6. Font</h2>
+        <p>Se utiliza para cambiar el el estilo/fuente del texto: </p>
+        <div class="font"> Este texto esta en Comic Sans MS, tamaño 16px </div>
+    </section>
+
+        <!-- Propiedad 7: font-family -->
+    <section>
+        <h2>7. Font-Family</h2>
+        <p>Se utiliza para definir la familia fuente de un texto/elemento:</p>
+        <div class="font-family"> Este texto tiene una familia de fuente "Times New Roman" </div>
+    </section>
+
+    <!-- Propiedad 8: font-style, font-weight -->
+    <section>
+        <h2>8. Font-Style, Font-Weight</h2>
+        <p>Font style permite modificar el estilo de un texto (cursiva, oblique, normal) y font Font-Weight permite cambiar el grosor del texto,por ejemplo, ponerlo en negritas:</p>
+        <div class="font-style"> Texto en cursiva </div>
+        <div class="font-weight"> Texto en negrita </div>
+    </section>
+
+    <!-- Propiedad 9: width, height -->
+    <section>
+        <h2>9. Width, Height</h2>
+        <p>Permite definir el ancho y alto de un elemento, por ejemplo:</p>
+        <div class="width-height"> Este elemento tiene un ancho de 800px y altura de 70px </div>
+    </section>
+
+    <!-- Propiedad 10: list-style -->
+    <section>
+        <h2>10. List-Style</h2>
+        <p>Se utiliza para modificar el estilo de listas, como marcadores y sus posiciones:</p>
+        <p>Lista super: </p>
+        <ul class="list-style">
+            <li>Queso</li>
+            <li>Lechuga</li>
+            <li>Tomate</li>
+            <li>Etc...</li>
+        </ul>
+    </section>
+
+    <!-- Propiedad 11: margin -->
+    <section>
+        <h2>11. Margin</h2>
+        <p>Permite modificar los espacios exteriores de un elemento, los margenes superiores, derecho/izquierdo e inferior:</p>
+        <div class="margin"> Este elemento contiene margenes de 20px superior e inferior y margen de 40px del lado derecho e izquierdo </div>
+    </section>
+
+    <!-- Propiedad 12: padding -->
+    <section>
+        <h2>12. Padding</h2>
+        <p>A diferencia del margen, el padding permite dar margenes al contenido dentro de un elemento:</p>
+        <div class="padding"> Dentro del elemento existe un padding de 20px superior e inferior y margen de 40px del lado derecho e izquierdo </div>
+    </section>
+
+    <!-- Propiedad 13: overflow -->
+    <section>
+        <h2>13. Overflow</h2>
+        <p>Se utiliza para controlar contenido que se desborda dentro de un elemento. Existen cuatro opciones (visible, hidden, scroll y auto), auto presenta la mejor solucion dado que al desbordarse el contenenido coloca la habilidad de scroll automaticamente:</p>
+        <div class="overflow"> Este elemento contiene demasiado texto por lo que no cabe en las proporciones indicadas. El auto habilita un scroll para poder verlo en partes.</div>
+    </section>
+    
+    <!-- Propiedad 14: display -->
+    <section>
+        <h2>14. Display</h2>
+        <p>Esta propiedad se utiliza para definir como se mostrara un elemento. Hay 6 opciones:</p>
+
+        <h3>Display none:</h3>
+        <div>
+            Esta opcion no muestra <p class="display-none">(ELEMENTO)</p> ningun elemento.
+        </div>
+
+        <h3>Display inline:</h3>
+        <div>
+            Esta opcion muestra el elemento en linea, <p class="display-inline">(ELEMENTO)</p>, ocupa el espacio indispensable. 
+        </div>
+
+        <h3>Display block:</h3>
+        <div>
+            Esta opcion  <p class="display-block">(ELEMENTO)</p> muestra el elemento como un bloque.
+        </div>
+
+        <h3>Display inline-block:</h3>
+        <div>
+            Esta opcion muestra el elemento en linea, <p class="display-inline-block">(ELEMENTO)</p>, pero tiene el comportamiento de un bloque.
+        </div>
+
+        <h3>Display flex:</h3>
+        <div class="display-flex">
+            <div>Indica como </div>
+            <div>un elemento crecera o encogera</div>
+            <div>dentro de un contenedor flexible</div>
+        </div>
+
+        <h3>Display grid:</h3>
+        <div class="display-grid">
+            <div>Se puede dividir el elemento</div>
+            <div>en cuadriculas </div>
+            <div>dentro de este tipo de contenedor</div>
+        </div>
+    </section>
+
+    <!-- Propiedad 15: position -->
+    <section>
+        <h2>15. Position</h2>
+        <p>Esta propiedad permite posicionar a un elemento especifico. Hay 5 principales metodos de posicionamiento: </p>
+
+        <h3>a) Static:</h3>
+        <div class="position-static"> Static sigue el flujo normal del documento </div>
+
+        <h3>b) Relative:</h3>
+        <div class="position-relative"> Se posiciona relativo a la posicion normal </div>
+
+        <h3>c) Absolute:</h3>
+        <div class="position-absolute-container">
+            Ancestor
+            <div class="position-absolute"> El objeto ya no forma parte del flujo normal, el elemento se posiciona relativo al ancestor mas cercano </div>
+        </div>
+
+        <h3>d) Fixed:</h3>
+        <p>Se posiciona relativo a la ventana del navegador, su posicion final se define por los parametros top, bottom, right y left</p>
+        <div class="position-fixed"> Fixed Position</div>
+
+        <h3>e) Sticky:</h3>
+        <div class="position-sticky-container">
+            Sigue el flujo normal y despues se desplaza con respecto a su ancestro de desplazamiento mas cercano
+            <div class="position-sticky"> Sticky Position </div>
+            continuidad del texto...
+        </div>
+    </section>
+
+    <!-- Propiedad 16: filter -->
+    <section>
+        <h2>16. Filter</h2>
+        <p>Esta propiedad se utiliza para aplicar efectos graficos a un elemento. Algunos ejemplos son:</p>
+
+        <h3>Blur:</h3>
+        <p>Efecto de desenfoque:</p>
+        <div class="filter-blur"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat minus sed, officiis rerum sapiente sequi eveniet reiciendis sunt amet reprehenderit saepe cupiditate maiores beatae illum suscipit officia nostrum vel esse.</div>
+
+        <h3>Sepia:</h3>
+        <div class="filter-sepia"> Efecto sepia </div>
+
+        <h3>Brightness:</h3>
+        <div class="filter-brightness"> Efecto de brillo al 200% </div>
+
+        <h3>Opacity:</h3>
+        <div class="filter-opacity"> Efecto de opacidad del 50% </div>
+
+        <h3>Invert:</h3>
+        <div class="filter-invert"> Efecto inversion de colores</div>
+
+    </section>
+
+
+
+</body>
+</html>

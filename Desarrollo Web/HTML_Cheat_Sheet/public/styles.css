@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0c9eb; 
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.property {
+    margin-bottom: 20px;
+}
+
+.border {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(247, 206, 223);
+    border: 2px solid #a41cff;
+}
+
+.border-left {
+    margin-top: 7.5px;
+    padding: 7.5px;
+    background-color: rgb(253, 183, 204);
+    border-left: 4px solid #ae00ff;
+}
+
+.border-right {
+    margin-top: 7.5px;
+    padding: 7.5px;
+    background-color: rgb(251, 208, 255);
+    border-right: 4px dashed #ff00ff;
+}
+
+.border-top {
+    margin-top: 7.5px;
+    padding: 7.5px;
+    background-color: rgb(252, 177, 255);
+    border-top: 4px groove #c300ff;
+}
+
+.border-bottom {
+    margin-top: 7.5px;
+    padding: 7.5px;
+    background-color: rgb(255, 191, 244);
+    border-bottom: 4px double #e100ff;
+}
+
+.border-radius {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(186, 226, 204);
+    border: 2px solid #008075;
+    border-radius: 10px; 
+}
+
+.background-image {
+    height: 250px; 
+    width: 200px;
+    background-image: url('../Imagenes/Uron.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.color {
+    margin-top: 10px;
+    color: #f7f7f7; 
+}
+
+.font {
+    margin-top: 10px;
+    font: italic small-caps bold 16px/1.5 "Comic Sans MS", sans-serif; 
+}
+
+.font-family {
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+.font-style {
+    margin-top: 10px;
+    font-style: italic; 
+}
+
+.font-weight {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.width-height {
+    margin-top: 10px;
+    padding: 10px;
+    width: 800px; 
+    height: 70px; 
+    background-color: rgb(170, 151, 238);
+}
+
+.list-style {
+    margin-top: 10px;
+    padding: 10px;
+    list-style: circle outside; 
+}
+
+.margin {
+    margin-top: 20px;   
+    margin-bottom: 20px;   
+    margin-right: 40px;   
+    margin-left: 40px;    
+    padding: 10px;
+    background-color: rgb(239, 207, 252);
+    border: 2px solid #790097;
+}
+
+.padding {
+    padding-top: 20px; 
+    padding-bottom: 20px;   
+    padding-right: 40px;     
+    padding-left: 40px;    
+    background-color: rgb(245, 201, 222);
+    border: 2px solid #ff7bde;
+}
+
+.overflow {
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px; 
+    height: 70px;
+    background-color: rgb(243, 220, 248);
+    border: 2px solid #7a026a;
+    overflow: auto; 
+}
+
+.display-none {
+    display: none;
+}
+
+.display-inline {
+    display: inline;
+    color: rgb(135, 0, 224);
+}
+
+.display-block {
+    display: block;
+    color: rgb(135, 0, 224);
+}
+
+.display-inline-block {
+    display: inline-block;
+    color: rgb(135, 0, 224);
+}
+
+.display-flex {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(223, 247, 247);
+    border: 2px solid #333;
+    gap: 30px; 
+}
+
+.display-grid {
+    display: grid;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(247, 223, 247);
+    border: 2px solid #333333;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.position-static {
+    position: static;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 220, 246);
+    border: 2px solid #6100882c;
+}
+
+.position-relative {
+    position: relative;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(246, 196, 248);
+    border: 2px solid #7a0467;
+    top: 10px; 
+    left: 10px; 
+}
+
+.position-absolute-container {
+    position: relative;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: rgb(243, 180, 255);
+    border: 2px solid #660155;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 5px; 
+    left: 5px; 
+    background-color: rgba(252, 227, 255, 0.8);
+    padding: 10px;
+    border: .5px solid #830057;
+}
+
+.position-fixed {
+    position: fixed;
+    top: 2.5px; 
+    right: 2.5px; 
+    background-color: rgb(242, 199, 255);
+    padding: 10px;
+    border: 2px solid #9000a3;
+}
+
+.position-sticky-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(250, 215, 255);
+    height: 200px;
+    overflow: auto;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 0; 
+    background-color: rgb(242, 216, 243);
+    padding: 10px;
+    border: .5px solid #cc679a;
+}
+
+.filter-blur {
+    filter: blur(5px);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 198, 236);
+    border: 2px solid #480052;
+}
+
+.filter-sepia {
+    filter: sepia(100%);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 198, 236);
+    border: 2px solid #480052;
+}
+
+.filter-brightness {
+    filter: brightness(200%);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 198, 236);
+    border: 2px solid #480052;
+}
+
+.filter-opacity {
+    filter: opacity(50%);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 198, 236);
+    border: 2px solid #480052;
+}
+
+.filter-invert {
+    filter: invert(100%);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 198, 236);
+    border: 2px solid #480052;
+}
+
